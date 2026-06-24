@@ -3,6 +3,11 @@
 
 This project is built around one core rule: "keep things separate". Instead of packing all the logic inside a single player file, this framework uses modular C++ pieces to handle equipment, stats, and quests independently. The backend systems talk to the UI using a "megaphone" system (delegates), meaning you can completely swap out the menus or update the code without breaking the game!
 
+# Video Demonstration
+Watch the Gameplay Demo on YouTube!
+
+[![Watch the Gameplay Demo on YouTube](https://img.youtube.com/vi/ftIABapH3Ik/0.jpg)](https://www.youtube.com/watch?v=ftIABapH3Ik)
+
 # Key Architectural Features
 
 **Event-Driven Subsystems:** The game uses a UQuestSubsystem to handle global state evaluation and quest tracking.
